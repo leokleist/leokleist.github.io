@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="{{ site.baseurl }}/index.html">
           {{ site.title }}
         </a>
       </h1>
@@ -10,7 +10,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -27,21 +27,17 @@
       {% endfor %}
       <p>Follow me: </p>
       <div>
-        {% if site.twitter_username %}
-          <a href="https://twitter.com/{{ site.twitter_username }}">
-            <i class="fa fa-twitter fa-3x"></i>
-          </a>
-        {% endif %}
-        {% if site.github_username %}
+        
+        
           <a href="https://github.com/{{ site.github_username }}">
             <i class="fa fa-github fa-3x"></i>
           </a>
-        {% endif %}
-        {% if site.linkedin_username %}
+       
+        {
           <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
             <i class="fa fa-linkedin fa-3x"></i>
           </a>
-        {% endif %}
+        
       </div>
       </nav> 
       
