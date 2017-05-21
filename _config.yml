@@ -11,8 +11,7 @@ title:            Leo von Kleist
 tagline:          Blog
 description:      'CS Student @ ETH Zurich'
 url:              http://hyde.getpoole.com
-baseurl:          /
-
+baseurl:          http://leokleist.github.io
 github_username: leokleist
 linkedin_username: leonard-von-kleist
 
