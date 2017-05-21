@@ -9,7 +9,7 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
-    <div class="sidebar">
+    <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
       {% comment %}
@@ -51,7 +51,7 @@
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
       
-       </div> 
+       </nav> 
   
   </div>
 </div>
