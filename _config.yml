@@ -9,7 +9,7 @@ permalink:        pretty
 # Setup
 title:            Leo von Kleist
 tagline:          Blog
-description:      'CS Student @ ETH Zurich'
+description:      CS Student @ ETH Zurich
 url:              http://hyde.getpoole.com
 baseurl:          leokleist.github.io
 github_username: leokleist
